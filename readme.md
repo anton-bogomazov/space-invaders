@@ -1,3 +1,7 @@
+# Space Invaders
+
+![Gameplay](./demo.gif)
+
 Entities
 
 Invader
