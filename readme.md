@@ -1,5 +1,14 @@
 # Space Invaders
 
+I did this project to challenge my design tools in conditions of high uncertainty. I had never written in LISP-like languages before and studied Racket for about a week while working on this project. It’s also only my second game (the first was Wolfenstein, which I made at École 42), so I’m not very familiar with game development patterns and best practices.
+
+Overall, it turned out pretty well!
+I’d work on generalizing the components and making the configuration cleaner. Right now, all variables are global - which is acceptable - but introducing difficulty levels or game levels in general would require dynamic gameplay configuration.
+
+I’d also like to modularize the project. Managing code in a single file without proper refactoring tools is cognitively very difficult.
+
+P.S. I’d love to add more features, but working with DrRacket has been a very frustrating experience!
+
 ![Gameplay](./demo.gif)
 
 Entities
